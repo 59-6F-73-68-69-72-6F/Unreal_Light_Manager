@@ -85,4 +85,33 @@
  
  ## 4. Installation
 
- ---
+To use the Unreal Light Manager, you need to have a project in Unreal Engine with the Python plugin enabled. Follow these steps to install and run the tool:
+
+1.  **Download the Script:**
+    *   Download the entire `Unreal_Light_Manager` folder, which includes the Python scripts and the `img` folder with the necessary icons.
+
+2.  **Place the Script in Your Project:**
+    *   Navigate to your Unreal Engine project's directory.
+    *   Inside the `Content` folder, create a new folder named `Python` (if it doesn't already exist).
+    *   Copy the entire `Unreal_Light_Manager` folder into the `Content/Python` directory.
+
+3.  **Run the Tool in Unreal Engine:**
+    *   Open your Unreal Engine project.
+    *   In the main menu, go to `Tools > Run Python Script`.
+    *   In the file dialog, navigate to the `Content/Python/Unreal_Light_Manager` folder and select the `ulm_main.py` script.
+    *   Click **Open** to run the script.
+    
+---
+
+## 5. Dependencies
+
+This tool is built with Python and requires the following libraries:
+
+*   **PySide6:** For the graphical user interface.
+*   **Unreal Engine Python API:** The tool is designed to run inside the Unreal Editor and uses the `unreal` module to interact with the engine.
+
+The project also includes the following local modules:
+
+*   **LightManagerUI.py:** Defines the user interface.
+*   **UnrealLightLogic.py:** Contains the logic for interacting with Unreal Engine.
+*   **ulm_main.py:** The main script to launch the tool.
