@@ -1,11 +1,14 @@
  # Unreal Light Manager 🔦
  
-<img width="1888" height="912" alt="image" src="https://github.com/user-attachments/assets/8f0529c7-81a7-4757-ac36-2f319aea8b2a" />
 
  
  ## 1. Overview
  
- The Unreal Light Manager is a powerful tool designed to streamline the lighting workflow within Unreal Engine. It provides a compact and intuitive user interface to manage, create, and modify all common light types in your scene directly from one panel. This tool is perfect for lighting artists and level designers who need to quickly iterate on lighting setups without constantly navigating the World Outliner and Details panels.
+ The Unreal Light Manager is a powerful tool designed to streamline the lighting workflow within Unreal Engine. It provides a compact and intuitive user interface to manage, create, and modify all common light types in your scene directly from one panel.
+ 
+ This tool is perfect for lighting artists and level designers who need to quickly iterate on lighting setups without constantly navigating the World Outliner and Details panels.
+ 
+<img width="1888" height="912" alt="image" src="https://github.com/user-attachments/assets/8f0529c7-81a7-4757-ac36-2f319aea8b2a" />
  
  ## 2. Features
  
