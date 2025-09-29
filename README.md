@@ -108,6 +108,20 @@ To use the Unreal Light Manager, you need to have a project in Unreal Engine wit
 This tool is built with Python and requires the following libraries:
 
 *   **PySide6:** For the graphical user interface.
+    - Install PySide6 using Unreal Engine's Python Environment:
+    - Locate the Python executable within your Unreal Engine installation. This is typically found at:
+    
+            <Unreal Engine Installation Directory>\Engine\Binaries\ThirdParty\Python3\Win64\python.exe
+    
+    
+    - Open a Command Prompt or PowerShell window.
+    - Navigate to the directory containing the python.exe file or use its full path directly.
+    - Execute the following command to install PySide6 using pip:
+
+            "<Unreal Engine Installation Directory>\Engine\Binaries\ThirdParty\Python3\Win64\python.exe" -m pip install PySide6
+    
+    *   Replace **"Unreal Engine Installation Directory"**  with the actual path to your Unreal Engine installation.
+
 *   **Unreal Engine Python API:** The tool is designed to run inside the Unreal Editor and uses the `unreal` module to interact with the engine.
 
 The project also includes the following local modules:
