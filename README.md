@@ -1,6 +1,6 @@
  # Unreal Light Manager 🔦
  
-<img width="772" height="713" alt="image" src="https://github.com/user-attachments/assets/6f7c67ca-702d-4884-affc-05660c1bd67e" />
+<img width="1888" height="912" alt="image" src="https://github.com/user-attachments/assets/8f0529c7-81a7-4757-ac36-2f319aea8b2a" />
 
  
  ## 1. Overview
