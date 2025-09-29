@@ -81,10 +81,5 @@
  > **Note:** Some attributes like `Temperature` and `Attenuation Radius` may show "N/A" if they are not applicable to the selected light type (e.g., a Sky Light).
  
  ## 4. Installation
- 
- 1.  Copy the script folder (`Unreal_Light_Manager`) into your Unreal Engine project's `Content/Python` directory.
- 2.  In the Unreal Editor, open the **Output Log** (`Window` > `Developer Tools` > `Output Log`).
- 3.  In the `Cmd` console at the bottom of the Output Log, type `py ulm_main.py` and press Enter.
- 4.  The Unreal Light Manager window will appear.
- 
+
  ---
