@@ -14,6 +14,11 @@ FONT_SIZE = 11
 
 
 class LightManagerUI(QWidget):
+    """
+    A QWidget class that provides a user interface for managing lights in Unreal Engine.
+    This class handles the creation, manipulation, and display of light-related data
+    within a QTableWidget, interacting with Unreal Engine through the UnrealLightLogic.
+    """
 
     signal_light_created = Signal(str, str, object)  # (light_name, light_type, table_widget)
     signal_light_renamed = Signal(str, str, object)  # (old_name, new_name,table_widget)
