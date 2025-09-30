@@ -12,6 +12,10 @@ SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 
 class UnrealLightLogic(QObject):
+    """
+    A class that handles the logic and interaction between the UI and Unreal Engine.
+    It manages light creation, renaming, deletion, and attribute modification.
+    """
 
     def __init__(self, ui):
         """
